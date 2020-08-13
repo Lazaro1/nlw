@@ -35,11 +35,8 @@
 #search-teachers button:hover{
     background-color: var(--color-secondary-dark);
 
+
 }
-
-
-
-
 #page-study main {
     margin: 3.2rem auto;
     width: 90%;
@@ -111,7 +108,7 @@
     display: block;   
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
     width: 20rem;
     height: 5.6rem;
     background-color: var(--color-secondary);
