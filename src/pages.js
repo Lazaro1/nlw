@@ -69,8 +69,8 @@ async function saveClasses (req, res) {
 
         return {
             weekday: weekday,
-            time_from:convertHoursToMinutes(req.body_time_from[index]),
-            time_to:convertHoursToMinutes(req.body_time_to[index])
+            time_from:convertHoursToMinutes(req.body.time_from[index]),
+            time_to:convertHoursToMinutes(req.body.time_to[index])
         }
     })
 
